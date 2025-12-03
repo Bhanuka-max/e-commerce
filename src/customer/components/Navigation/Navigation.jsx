@@ -270,7 +270,7 @@ export default function Navigation() {
         <p className="flex h-10 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on Your flower boutique orders over $100
         </p>
-
+        
         <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
@@ -343,11 +343,11 @@ export default function Navigation() {
                                     <p id={`${section.name}-heading`} className="font-medium text-gray-900">
                                       {section.name}
                                     </p>
-                                    <ul
+                                     <ul
                                       role="list"
                                       aria-labelledby={`${section.name}-heading`}
                                       className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
-                                    >
+                                    >*/
                                       {section.items.map((item) => (
                                         <li key={item.name} className="flex">
                                           <a href={item.href} className="hover:text-gray-800">
